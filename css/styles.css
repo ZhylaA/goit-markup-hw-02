@@ -1,0 +1,18 @@
+:root{
+    --basic-color: #212121;
+    --secondary-color: #757575;
+    --blue-color: #2196F3;
+    --white-color: #FFFFFF;
+}
+.logo{
+    color: var(--blue-color);
+}
+.site-naw{
+    color: var(--basic-color);
+}
+.contact{
+    color: var(--secondary-color);
+}
+.main-heading {
+    color: var(--white-color);}
+.heading
