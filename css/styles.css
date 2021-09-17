@@ -1,18 +1,45 @@
-:root{
-    --basic-color: #212121;
-    --secondary-color: #757575;
-    --blue-color: #2196F3;
-    --white-color: #FFFFFF;
+:root {
+  --basic-color: #212121;
+  --secondary-color: #757575;
+  --blue-color: #2196f3;
+  --white-color: #ffffff;
 }
-.logo{
-    color: var(--blue-color);
+.logo {
+  color: var(--blue-color);
 }
-.site-naw{
-    color: var(--basic-color);
+.site-naw {
+  color: var(--basic-color);
 }
-.contact{
-    color: var(--secondary-color);
+.studio:hover,
+.email:hover {
+  color: var(--basic-color);
+}
+.studio:focus,
+.email:focus {
+  color: var(--blue-color);
+}
+.contact {
+  color: var(--secondary-color);
 }
 .main-heading {
-    color: var(--white-color);}
-.heading
+  color: var(--white-color);
+  background: #2f303a;
+}
+.bt {
+  background: var(--blue-color);
+  color: var(--white-color);
+  cursor: pointer;
+}
+.advantage > li > h3 {
+  color: var(--basic-color);
+}
+.advantage > li > p {
+  color: var(--secondary-color);
+}
+.specialization,
+.team {
+  color: var(--basic-color);
+}
+.team > ul > li > p {
+  color: var(--secondary-color);
+}
