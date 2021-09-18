@@ -39,9 +39,23 @@ body {
   color: var(--blue-color);
 }
 
-.link {
+.contact {
+  list-style: none;
+  text-decoration: none;
+}
+.header-naw,
+.link,
+.advantage,
+.specialization-list,
+.team-list {
   text-decoration: none;
   list-style: none;
+}
+.contact-item {
+  text-decoration: none;
+}
+.title {
+  background-color: var(--secondary-color);
 }
 .main-heading {
   font-weight: 900;
@@ -51,11 +65,10 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-color);
-  background-color: var(--secondary-color);
 }
 
 .btn {
-  font-family: Roboto;
+  font-family: inherit;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
