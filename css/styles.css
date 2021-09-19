@@ -47,11 +47,14 @@ body {
 .link,
 .advantage,
 .specialization-list,
-.team-list {
+.team-list,
+.potfolio-link,
+.examples {
   text-decoration: none;
   list-style: none;
 }
-.contact-item {
+.contact-item,
+.examples-item {
   text-decoration: none;
 }
 .title {
@@ -68,7 +71,7 @@ body {
   color: var(--white-color);
 }
 
-.btn {
+.header-btn {
   font-family: inherit;
   font-weight: bold;
   font-size: 16px;
@@ -87,8 +90,6 @@ body {
 }
 
 .advantage-description {
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   color: var(--secondary-color);
@@ -135,4 +136,37 @@ body {
   font-size: 14px;
   line-height: 1.71;
   color: var(--white-color);
+}
+.potfolio-link-btn:focus,
+.potfolio-link-btn:hover {
+  color: var(--white-color);
+  background-color: var(--blue-color);
+}
+
+.potfolio-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  text-align: center;
+  color: var(--basic-color);
+}
+.btn {
+  cursor: pointer;
+}
+
+.examples-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--basic-color);
+}
+.examples-paragraph {
+  color: var(--basic-color);
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--secondary-color);
+}
+.activ {
+  color: var(--blue-color);
 }
