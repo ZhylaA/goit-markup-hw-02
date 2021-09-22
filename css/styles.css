@@ -1,3 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
 :root {
   --basic-color: #212121;
   --secondary-color: #757575;
@@ -46,13 +66,13 @@ body {
   color: var(--blue-color);
 }
 
-.contact {
+.contact-list {
   list-style: none;
   text-decoration: none;
 }
 .header-naw,
 .link,
-.advantage,
+.advantage-list,
 .specialization-list,
 .team-list,
 .potfolio-link,
@@ -64,11 +84,11 @@ body {
 .examples-item {
   text-decoration: none;
 }
-.title {
+.heading {
   text-align: center;
   background-color: var(--secondary-color);
 }
-.main-heading {
+.title-heading {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -78,7 +98,7 @@ body {
   color: var(--white-color);
 }
 
-.header-btn {
+.heading-btn {
   font-family: inherit;
   font-weight: bold;
   font-size: 16px;
